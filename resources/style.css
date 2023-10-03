@@ -1,0 +1,110 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*init body*/
+body {
+    /*background-image: url("https://wallpaperapi.a166757037880.workers.dev/") !important;*/
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: #abb2bf;
+}
+
+/*init header*/
+.header{
+    image-rendering: auto;
+    image-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #131313;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*set background image blur*/
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    /*set background image opacity*/
+    opacity: 1;
+    -moz-opacity: 1;
+}
+
+
+/*container*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    /*background-image: url("https://wallpaperapi.a166757037880.workers.dev/") !important;*/
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.body {
+    /*background-image: url("https://wallpaperapi.a166757037880.workers.dev/") !important;*/
+    /*replace above background-image with js code to get random image from resources\images\backgrounds*/
+    /*set default background image*/
+    background-image: url("frontend/resources/img/3052361.jpg") !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background: #abb2bf;
+}
+
+
+/*!*dark mode .container .footer .*!*/
+/*.container .footer{*/
+/*    background-color: #fffafa;*/
+/*    color: rgba(0, 0, 0, 0.79);*/
+/*}*/
+
+.background {
+    background-image: url("frontend/resources/img/3052361.jpg") !important;
+    line-height: 1.5;
+    padding: 0 16px;
+    image-rendering: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #131313;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*set background image blur*/
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    /*set background image opacity*/
+    opacity: 1;
+    -moz-opacity: 1;
+}
+
+.footer {
+    position: fixed;
+    text-align: left;
+    line-height: 1.5;
+    padding: 0 16px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("frontend/resources/img/3052361.jpg") !important;
+}
+h1{
+    color: #61afef;
+
+}
